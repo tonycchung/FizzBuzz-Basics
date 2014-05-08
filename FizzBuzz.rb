@@ -1,17 +1,17 @@
 def FizzBuzz(x)
-	if x == 0
-		puts x
-	elsif x % 15 == 0
-		puts "FizzBuzz"
-	elsif x % 3 == 0
-		puts "Fizz"
-	elsif x % 5 == 0
-		puts "Buzz"
-	else
-		puts x
-	end
+  if x == 0
+    puts x
+  elsif x % 15 == 0
+    puts 'FizzBuzz'
+  elsif x % 3 == 0
+    puts 'Fizz'
+  elsif x % 5 == 0
+    puts 'Buzz'
+  else
+    puts x
+  end
 end
 
-puts "Please enter a number:"
+puts 'Please enter a number:'
 number = gets
 FizzBuzz(Integer(number))
