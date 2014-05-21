@@ -10,8 +10,8 @@ def FizzBuzz(x)
   else
     puts x
   end
-end
+puts
 
-puts 'Please enter a number:'
+end 'Please enter a number:'
 number = gets
 FizzBuzz(Integer(number))
